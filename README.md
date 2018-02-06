@@ -1,0 +1,2 @@
+# dockerfile-logrotate
+Dockerized Logrotate
