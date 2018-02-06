@@ -9,3 +9,7 @@
 ```bash
     docker run -d -v $(pwd)/config/:/etc/logrotate.d/ stakater/logrotate
 ```
+
+## References
+
+* How to write a logrotate config file: https://serversforhackers.com/c/managing-logs-with-logrotate
