@@ -8,6 +8,5 @@ RUN echo "${CRON_SCHEDULE}	/usr/sbin/logrotate -v /etc/logrotate.conf" >> /etc/c
 
 ADD logrotate.conf /etc/logrotate.conf
 
-VOLUME [ "/etc/logrotate.d" ]
 ENTRYPOINT [ ]
 CMD ["crond", "-f"]
